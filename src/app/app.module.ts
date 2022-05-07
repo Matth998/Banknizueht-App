@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CurrencyMaskModule } from 'ng2-currency-mask';
 import { CorrentistasComponent } from './components/correntistas/correntistas.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { CorrentistasComponent } from './components/correntistas/correntistas.co
     MovimentacaoListComponent,
     MovimentacaoNewComponent,
     HomeComponent,
-    CorrentistasComponent
+    CorrentistasComponent,
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

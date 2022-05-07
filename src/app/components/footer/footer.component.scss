@@ -1,0 +1,81 @@
+.glass-btn {
+
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  margin-left: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &.blue-btn {
+
+    -webkit-box-shadow: 0px 20px 20px -17px rgba(4, 0, 255, 0.53);
+    -moz-box-shadow: 0px 20px 20px -17px rgba(4, 0, 255, 0.53);
+    box-shadow: 0px 20px 20px -17px rgba(4, 0, 255, 0.53);
+
+    &:hover {
+
+      -webkit-box-shadow: 0px 20px 35px -16px rgba(4, 0, 255, 0.65);
+      -moz-box-shadow: 0px 20px 35px -16px rgba(4, 0, 255, 0.65);
+      box-shadow: 0px 20px 35px -16px rgba(4, 0, 255, 0.65);
+
+    }
+
+  }
+
+  &.purple-btn {
+
+    -webkit-box-shadow: 0px 20px 20px -17px rgba(212, 3, 194, 0.692);
+    -moz-box-shadow: 0px 20px 20px -17px rgba(212, 3, 194, 0.692);
+    box-shadow: 0px 20px 20px -17px rgba(212, 3, 194, 0.692);
+
+    &:hover {
+
+      -webkit-box-shadow: 0px 20px 35px -16px rgba(212, 3, 194, 0.795);
+      -moz-box-shadow: 0px 20px 35px -16px rgba(212, 3, 194, 0.795);
+      box-shadow: 0px 20px 35px -16px rgba(212, 3, 194, 0.795);
+
+    }
+
+  }
+
+  &.dark-btn {
+
+    -webkit-box-shadow: 0px 20px 20px -17px rgba(39, 39, 39, 0.53);
+    -moz-box-shadow: 0px 20px 20px -17px rgba(39, 39, 39, 0.53);
+    box-shadow: 0px 20px 20px -17px rgba(39, 39, 39, 0.53);
+
+    &:hover {
+
+      -webkit-box-shadow: 0px 20px 35px -16px rgba(39, 39, 39, 0.65);
+      -moz-box-shadow: 0px 20px 35px -16px rgba(39, 39, 39, 0.65);
+      box-shadow: 0px 20px 35px -16px rgba(39, 39, 39, 0.65);
+
+    }
+
+  }
+
+}
+
+.fa-linkedin-square{
+
+    color: #275df0;
+
+}
+
+.fa-instagram{
+
+    color: #e1306c;
+
+}
+
+.fa-github{
+
+    color: #888888;
+
+}
